@@ -18,8 +18,7 @@
                 <div class="navigation">
                     <a href="#">Home</a>
                     <a href="#about">About Rainy Brain</a>
-                    <a href="#dashboard">Dashboard</a>
-                    <a href="#info">Developer</a>
+                    <a href="{{route('analytic')}}">Dashboard</a>
                     <a href="{{route('flood-predictions')}}">Predictor</a>
                 </div>
                 <label for="check">

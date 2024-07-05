@@ -30,7 +30,7 @@ Route::get('/lock',[LockController::class,'lock'])->name('lockscreen');
 Route::get('/home',[HomeController::class,'index']);
 Route::get('/admin',[ProfileController::class,'index'])->name('admin.adm-dashboard');
 Route::get('/admin/users',[UserController::class,'index'])->name('admin.users.index');
-
+Route::get('/analytic',[HomeController::class,'analytic'])->name('analytic');
 Route::get('/admin/users/create',[UserController::class,'create'])->name('admin.users.create');
 Route::get('/admin/users/edit',[UserController::class,'edit'])->name('admin.users.edit');
 Route::get('/admin/adm-dashboard',[DashboardController::class,'index'])->name('admin.adm-dashboard');

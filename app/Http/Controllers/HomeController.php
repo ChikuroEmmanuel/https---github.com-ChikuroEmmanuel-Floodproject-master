@@ -19,6 +19,9 @@ class HomeController extends Controller
         }
            
     }
+    public function analytic(){
+        return view('analytic');
+    }
     
 }
     
